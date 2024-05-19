@@ -19,37 +19,23 @@ body {
     flex-direction: column;
 }
 
+/* Background colour for homepage */
+#body {
+    background-color: #5d6169;
+    /*#aeaeaf;*/
+}
+
 header {
     margin: 0;
     padding: 10px;
     color: white;
+    text-align: center;
     background: url("../images/header-sky.webp");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 120px;
 }
 
-/*Nav toggle 
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-}
-
-#nav-toggle-label {
-    color: #F0F695;
-    padding: 5px;
-}*/
-
-.header-home {
-    text-align: center;
-}
 
 #hero-header {
     background: url("./images/homepage-image.webp");
