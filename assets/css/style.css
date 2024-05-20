@@ -40,7 +40,7 @@ main {
     flex: 1 0 auto;
 }
 
-#why-bother {
+/*#why-bother {
     background-color: white;
     text-align: center;
     border-radius: 25px;
@@ -53,7 +53,7 @@ main {
     margin-right: 10px;
     margin-bottom: 25px;
     font-weight: bold;
-}
+}*/
 
 footer {
     background-color: whitesmoke;
