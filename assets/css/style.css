@@ -40,21 +40,25 @@ main {
     flex: 1 0 auto;
 }
 
-/*#why-bother {
-    background-color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 1px;
-    padding-top: 2px;
-    margin-top: 1px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 25px;
-    font-weight: bold;
-}*/
-
 footer {
     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+#social-networks {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-networks li {
+    margin-right: 20px; /* Adjust spacing between icons as needed */
+}
+
+#social-networks li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
 }
