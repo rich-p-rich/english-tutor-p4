@@ -40,6 +40,14 @@ main {
     flex: 1 0 auto;
 }
 
+/* About Us Page */
+
+#about-us-intro {
+    margin-top: 10px;
+}
+
+/* The Footer Element */
+
 footer {
     background-color: whitesmoke;
     display: flex;
